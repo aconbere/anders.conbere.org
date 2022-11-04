@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="post">
+    <h1 class="title">
+        {{ taxonomy.name }}
+    </h1>
+    <ul>
+        <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+        {% for term in terms %}
+            <li><a href="{{ term.permalink | safe }}">{{ term.name }}</a></li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock content %}
+
