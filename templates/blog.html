@@ -4,21 +4,24 @@
 {% endblock header %}
 
 {% block content %}
-<div class="post">
-    <h1 class="title">
-        {{ section.title }}
-    </h1>
-    <ul>
-        <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
-        {% for page in section.pages %}
-            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
-        {% endfor %}
-    </ul>
+<div class="two-column">
+    <div class="left-column">
+        <h2>Blog Roll</h2>
+        <ul>
+            <li><a href="https://zane.io">Zane Shelby</a></li>
+            <li><a href="https://ianbicking.org/blog/">Ian Bicking</a></li>
+        </ul>
+    </div>
+    <div class="right-column">
+        <h2 class="title">
+            {{ section.title }}
+        </h2>
+        <ul>
+            {% for page in section.pages %}
+                <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
 
-    <h2>Blog Roll</h2>
-    <ul>
-        <li><a href="https://zane.io">Zane Shelby</a></li>
-        <li><a href="https://ianbicking.org/blog/">Ian Bicking</a></li>
-    </ul>
 </div>
 {% endblock content %}
