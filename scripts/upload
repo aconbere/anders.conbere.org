@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+set -eux
+
+aws s3 sync ./public s3://anders.conbere.org
