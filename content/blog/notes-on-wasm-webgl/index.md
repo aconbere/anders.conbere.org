@@ -161,6 +161,6 @@ I looked around at rust gui libraries that ran on OpenGL and found [egui](https:
 
 <img src="webgl-egui.png"/>
 
-## Conclussions
+## Conclusions
 
 Well, some minor hiccups along the way, but honestly this works pretty well. I want to spend some time writing some more complex guis and checking out performance. It seems like, maybe an interesting way to write rich web apps, without the current pain of writing web apps.

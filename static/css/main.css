@@ -31,9 +31,15 @@ blockquote {
     font-size: 1rem;
 }
 
+
 header {
     display: flex;
     flex-direction: columns;
+
+    width: 50%;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
     
     margin-top: 1rem;
     margin-bottom: 2rem;
@@ -42,9 +48,7 @@ header {
     font-weight: bold;
 }
 
-header .title {
-    margin-left: 120px;
-}
+header .title { }
 
 header .title a {
     margin-right: 20px;
@@ -52,7 +56,6 @@ header .title a {
 
 header .info {
     margin-left: auto;
-    margin-right: 100px;
 }
 
 header .info a {
@@ -60,8 +63,12 @@ header .info a {
 }
 
 footer {
+    width: 50%;
+    min-width: 600px;
+
     margin-top: 2rem;
-    margin-left: 120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .two-column {
@@ -130,7 +137,33 @@ h1 {
 
 .single-column {
     width: 50%;
+    min-width: 600px;
     font-size: 1.2rem;
     margin-left: auto;
     margin-right: auto;
 }
+
+.single-column h2 {
+  color: #0c1e29;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 85%;
+        min-width: 200px;
+    }
+
+    footer {
+        width: 85%;
+        min-width: 200px;
+    }
+
+    div.single-column {
+        width: 85%;
+        min-width: 200px;
+    }
+}
+
