@@ -12,7 +12,6 @@ experience:
     company: 
         name: "Moment"
         website: "https://www.moment.dev"
-experience:
 - job:
     title: "Engineering Manager: LATAM"
     start: "July 2019"
@@ -105,6 +104,5 @@ education:
     school: "Western Washington University"
     location: "Bellingham, Wa"
     degree: "BS Mathematics"
-    minor: "Physics"
     start: "2001"
-    end: "2006"
+    end: "2005"
