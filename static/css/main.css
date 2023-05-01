@@ -31,6 +31,15 @@ blockquote {
     font-size: 1rem;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
 
 header {
     display: flex;
@@ -81,6 +90,7 @@ footer {
 
 .two-column img {
   max-width: 100%;
+  max-height: 100%;
   margin-left: auto;
   margin-right: auto;
   display: block;
