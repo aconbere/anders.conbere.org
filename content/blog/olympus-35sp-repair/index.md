@@ -47,7 +47,7 @@ Setting the meter aside for a minute I decided to look into the dust in the lens
 
 The lens on this camera is a famously sharp 40mm f1.7. I knew that to get to the back of the front element I needed to open up the front of the lens. The first piece is a small little alluminum ring called the "name ring" or the "brand ring", it has the manufacturers brand and the lens info. For some 35-SPs this is just glued in, but mine is one of the less common threaded in kind.
 
-<img src="olympus-35sp-namering.jpg">
+<img src="olympus-35sp-name-ring.jpg">
 
 I've removed these a good handful of times and so set to it without thinking too much about it. However while the lens got moving okay, after a few turns it got well and truly stuck. Looking back at this image today I can see that the threads aren't clean, and this is something I'm unlikely to ever forget. No ammount of trying could get it unjammed. I tried everything, I couldn't reverse it back, I cleaned it with IPA, I oiled the threads, I pushed and pulled, and eventually I give it one big go and heard a series of pops and knew that I'd finally broken something.
 
@@ -57,7 +57,7 @@ My best hypothesis was that I'd broken the three screws that I knew sat just bel
 
 Okay so the name ring was jammed, and the camera was broken. I wouldn't be able to get it repaired for a worthwhile amount of money, so I might as well keep trying. So I decided to cut the name ring off. I dremeled a good bit and then used some tiny hand files to cut through the rest of the way. When I finally got to the threads, I took some needle nose pliers and twisted a little and the ring popped out, and along with it a long string of thread that it had been jammed on.
 
-<img src="olympus-35sp-namering-cut.jpg">
+<img src="olympus-35sp-name-ring-cut.jpg">
 
 With the name ring out I could finally see what damage I'd done! Disassembling the rest of the lens went pretty smoothly. First the front lens assembly comes out, a lens spanner does the trick. Then there are three screws that hold the lens controls in (warning they're glued in, little acetone goes a long way).
 
