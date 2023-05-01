@@ -7,7 +7,7 @@ I recently picked up an Olympus 35-SP for a good price on eBay, knowing that it 
 
 <img src="olympus-35sp-intake.jpg">
 
-The Camera other than the known flaws was in very good condition. The big things worked, all the controls moved smoothly, the apertures all worked, the shutter moved cleanly, focus was set correctly, etc.
+The Camera, other than the known flaws was in very good condition. The big things worked, all the controls moved smoothly, the apertures all worked, the shutter moved cleanly, focus was set correctly, etc.
 
 I built a little system for measuring shutter speeds. It's pretty simple, a laser, a photo diode, and a little samd21 microcontroller that measures the time between when it sees the laser and when it goes away. Using this system this camera had very accurate shutter speeds on top of it all.
 
@@ -81,5 +81,6 @@ I think there's two big lessons for me here.
 
 1. In the future I will spend a lot more time looking at filter threads. Maybe I'll look for a lens wrench that can recut them. If I'd cleaned out those threads I don't think anything would have gone wrong.
 2. Cutting the ring off was way less damage than using force. I could probably get a new ring off a donor for not very much money. Way better than breaking a camera.
+
 
 In the end, I'm bummed that I did damage but I'm glad I learned some things. The name ring isn't functional in any way, and maybe I'll get cute and put in a 3D printed version. I think this camera is fully functional now, so I plan to put some film in it and take some pictures!
