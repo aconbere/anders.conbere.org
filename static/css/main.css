@@ -40,6 +40,21 @@ img {
   margin-bottom: 1.5rem;
 }
 
+ul {
+    padding-left: 2rem;
+    list-style-type: disc;
+}
+
+li {
+    line-height: 1.5;
+    padding-left: 2rem;
+}
+
+ol {
+    padding-left: 2rem;
+    list-style-type: decimal;
+}
+
 
 header {
     display: flex;
