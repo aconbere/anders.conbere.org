@@ -1,7 +1,7 @@
----
-title: Olympus 35-SP Repair
-date: 2023-04-30
----
++++
+title = "Repair: Olympus 35 SP"
+date = "2023-04-30"
++++
 
 I recently picked up an Olympus 35-SP for a good price on eBay, knowing that it had a busted meter and some dust on the inside of the lens. I'd been repairing some Olympus vintage lenses for my Pen-F and was feeling capable. However this is not a story of success but a story of failure.
 
