@@ -8,6 +8,9 @@
     <title>Anders Conbere</title>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    {% block atom %}
+      <link rel="alternate" type="application/atom+xml" title="atom" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+    {% endblock %}
 </head>
 
 <body>

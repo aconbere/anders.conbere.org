@@ -5,6 +5,7 @@ base_url = "https://anders.conbere.org"
 compile_sass = false
 generate_feed = true
 build_search_index = false
+feed_filename = "atom.xml"
 
 taxonomies = [
     { name = "tags", feed = true},
