@@ -1,6 +1,8 @@
 +++
 title = "Repair: Argus C3"
 date = "2023-05-14"
+[taxonomies]
+tags=["Camera Repair"]
 +++
 
 After the challenges that I had with repairing my Olympus 35SP I wanted to step back and think about how I could learn and grow and repair. I got a recommendation to try starting at the beginning of the enthusiast cameras and moving forward one step at a time. So I bought a Kodak Brownie! I should write a quick post about that camera too, but I don't have anything to say about it that hasn't already been said. And this post is about the Argus C3.

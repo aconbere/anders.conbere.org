@@ -1,6 +1,8 @@
 +++
 title = "Repair: Mamiya-Sekor Press 90mm f/3.5"
 date = "2023-08-25"
+[taxonomies]
+tags=["Camera Repair"]
 +++
 
 {{ resize_image(path="./blog/repair-mamiya-sekor-press-90mm-f3.5/cover-image.jpg", width=600, height=400, op="fill") }}

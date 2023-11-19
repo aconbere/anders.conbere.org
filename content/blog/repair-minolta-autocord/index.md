@@ -1,6 +1,8 @@
 +++
 title = "Repair: Minolta Autocord"
 date = "2023-11-02"
+[taxonomies]
+tags=["Camera Repair"]
 +++
 
 The Minolta Autocord was a Twin Lens Reflex (TLR) camera manufactured between 1955 and 1966. It was a popular camera designed to compete with the Rolleiflex from Germany but at a much more affordable price point. Like the Rolleiflex it was equipped with a four element tessar type 75mm f3.5 lens. Today they remain an affordable alternative to more expensive TLRs on the market; A reliable, light, and easy to carry medium format camera, with a tack sharp lens. Of all my cameras, the Autocord might be my favorite camera when I just want to walk around and enjoy taking pictures.

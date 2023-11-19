@@ -1,6 +1,8 @@
 +++
 title = "Repair: Patent Etui"
 date = "2023-11-05"
+[taxonomies]
+tags=["Camera Repair"]
 +++
 
 The Patent Etui was a series of folding plate cameras manufactured by Kamera Werkstätten and sold between 1920 and 1938. The name Etui, the word for a woman's cigarette case was meant to highlight the light and slim design. They were available in two sizes: 6x9 and 6x12, and while designed for glass plates, are compatible with a number of 6x9 roll film holders.

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div><a href="..">home</a>/<span class="metaData">{{ page.slug }}</span></div>
+<div><a href="..">..</a>/<span class="metaData">{{ page.slug }}</span></div>
 <time datetime="{{ page.date }}">Published on: <span class="metaData">{{ page.date }}</span></time>
 {% if config.extra.author and config.extra.display_author == true %}
 <address rel="author">By <span class="metaData">{{config.extra.author}}</span></address>
