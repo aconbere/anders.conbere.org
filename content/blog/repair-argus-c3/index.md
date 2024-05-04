@@ -5,6 +5,8 @@ date = "2023-05-14"
 tags=["Camera Repair"]
 +++
 
+{{ resize_image(path="./blog/repair-argus-c3/IMG_2001.JPEG", width=600, height=400, op="fill") }}
+
 After the challenges that I had with repairing my Olympus 35SP I wanted to step back and think about how I could learn and grow and repair. I got a recommendation to try starting at the beginning of the enthusiast cameras and moving forward one step at a time. So I bought a Kodak Brownie! I should write a quick post about that camera too, but I don't have anything to say about it that hasn't already been said. And this post is about the Argus C3.
 
 The Argus C3 is a classic american camera, it is boxy, heavy, inellegant, simple, and super easy to repair! There were millions of them sold and they can be picked up for cheap used all over the country. This made it a great candidate to be my next camera attempt. The camera came with this description:
@@ -15,11 +17,15 @@ I liked this camera because it was, clean, the lens was in great shape, and it w
 
 ## Sticky Shutter
 
+{{ resize_image(path="./blog/repair-argus-c3/IMG_1995.JPEG", width=600, height=400, op="fill") }}
+
 The first issue I wanted to look at was the shutter speeds. When cocked and fired the shutter blades frequently got stuck, a second shot might get them to move, or not. The Argus C3 has a focal plane leaf shutter and is pretty easy to get access to. After opening the front of the camera it only requires three screws to remove the entirea assembly.
 
 The first thing I noticed on opening the camera was that it was pretty clear what the issue with the shutter was. There was grease all over the body of the camera, and SAND in all the grease. It was clear grease on the shutter blades. I pulled the shutter out and cleaned it with lighter fluid. Some actuation of the shutters later and the shutter moved smoothly again.
 
 ## Stiff Focus 
+
+{{ resize_image(path="./blog/repair-argus-c3/IMG_1997.JPEG", width=600, height=400, op="fill") }}
 
 It was apparent to me until I set about cleaning the lens action that this Argus C3 is an interchangable lens rangefinder! Argus produced a small range of lenses for the camera on a 33mm mount. Happily this makes is quite easy to remove the lens and get it fixed.
 
@@ -32,6 +38,7 @@ I found getting the coils back together to be a little tricky. I left a mark whe
 Pretty easy to clean. The viewfinder assemebly is held in by a single snap roing on the back of the camera. Opening that up there two lenses, spaced by what appears to be a little cardboard tube. Cleaning the lenses and re-assembling fixed the issue entirely. Note to folks, the order of those little lenses matters, I ended up having to play with it a bit. The bigger lens should have a flat side, that side goes towards your eye.
 
 ## Shutter speeds
+
 
 The Argus C3 puports to support shutter speeds from 1/300 to 1/10. In practice folks suggest that 1/300 was always more like 1/200 and the way the system works the speeds in between are pretty much guess work. That being said my camera had some specific issues.
 
@@ -53,5 +60,6 @@ The last thing I had to do was replace the leatherette and clean everything up. 
 
 
 Resources:
-- [http://rick_oleson.tripod.com/index-120.html](Rick Oleson's Argus C3 Page)
-- 
+<ul>
+    <li><a href="http://rick_oleson.tripod.com/index-120.html">Rick Oleson's Argus C3 Page</a><li>
+</ul>
