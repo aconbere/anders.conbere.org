@@ -46,16 +46,12 @@ export const carouselMachine = createMachine({
             on: {
                 next: {
                     actions: assign({
-                        index: ({context}) => {
-                            return rotatedInc(context.index, context.images.length);
-                        },
+                        index: ({context}) => rotatedInc(context.index, context.images.length),
                     }),
                 },
                 previous: {
                     actions: assign({
-                        index: ({context}) => {
-                            return rotatedDecr(context.index, context.images.length);
-                        },
+                        index: ({context}) => rotatedDecr(context.index, context.images.length),
                     }),
                 },
                 expand: {
@@ -93,6 +89,16 @@ export const {appRoot} = createRoot(
                 actor.send({type: "previous"})
             });
 
+            const shrinkBtn = shadow.querySelector("#shrink");
+            shrinkBtn.addEventListener("click", () => {
+                actor.send({type: "shrink"})
+            });
+
+            const expandedImg = shadow.querySelector("#expanded-view img");
+            expandedImg.addEventListener("click", () => {
+                actor.send({type: "shrink"})
+            });
+
             const images = Array.from(links).map((a) => {
                 const img = a.querySelector("img");
                 return {
@@ -108,6 +114,9 @@ export const {appRoot} = createRoot(
                 } else {
                     image.img.style.display = "none";
                 }
+                image.img.addEventListener("click", () => {
+                    actor.send({type: "expand"})
+                });
                 container.appendChild(image.img);
             });
 
@@ -115,15 +124,34 @@ export const {appRoot} = createRoot(
             el.style.display = "";
         },
 
-        updateFunction: (actor) => {
+        updateFunction: (actor, shadow) => {
+            const stage = shadow.querySelector("#stage");
+            stage.style.display = "";
+
+            const expandedView = shadow.querySelector("#expanded-view");
+            expandedView.style.display = "none";
+
+            const expandedImg = expandedView.querySelector("img");
+
             const snapshot = actor.getSnapshot();
-            snapshot.context.images.forEach((img, i) => {
-                if (i === snapshot.context.index) {
-                    img.img.style.display = "";
-                } else {
-                    img.img.style.display = "none";
-                }
-            });
+
+            if (snapshot.value === "showing") {
+                stage.style.display = "";
+                expandedView.style.display = "none";
+
+                snapshot.context.images.forEach((img, i) => {
+                    if (i === snapshot.context.index) {
+                        img.img.style.display = "";
+                    } else {
+                        img.img.style.display = "none";
+                    }
+                });
+            } else if (snapshot.value === "expanded") {
+                expandedImg.src = snapshot.context.images[snapshot.context.index].fullURL;
+
+                expandedView.style.display = "";
+                stage.style.display = "none";
+            }
         },
     }
 )

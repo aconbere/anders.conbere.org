@@ -14,11 +14,31 @@
 <body>
     <template id="photo-carousel-template">
         <style>
+            #stage {
+                display: flex;
+                flex-direction: row;
+                align-items: stretch;
+            }
+
+            #previous {
+            }
+
+            #next {
+            }
+
+            #expanded-view img {
+                max-width: 75%;
+            }
         </style>
-        <button id="previous">previous</button>
-        <div id="container">
+        <div id="stage">
+            <button id="previous">previous</button>
+            <div id="container"></div>
+            <button id="next">next</button>
         </div>
-        <button id="next">next</button>
+        <div id="expanded-view">
+            <button id="shrink">x</button>
+            <img src="" />
+        </div>
     </template>
 
     <header>
