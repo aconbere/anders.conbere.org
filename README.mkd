@@ -3,15 +3,21 @@
 This site uses [zola](https://www.getzola.org/) to produce static blog output. In order to build run
 
 ```bash
-> zola build
+> ./scripts/build
 ```
 
 From the root directory.
+
+# How to run the local server
+
+```bash
+> ./scripts/serve
+```
 
 # How to publish
 
 This site is published to S3 run to publish
 
 ```bash
-> aws s3 sync . s3://anders.conbere.org
+> ./scripts/upload
 ```

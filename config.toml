@@ -4,9 +4,8 @@ theme = "anemone"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
-generate_feed = true
+generate_feeds = true
 build_search_index = false
-feed_filename = "atom.xml"
 
 taxonomies = [
     { name = "tags", feed = true},

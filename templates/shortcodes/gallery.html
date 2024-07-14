@@ -1,0 +1,10 @@
+<photo-carousel id="{{ id }}" style="display:none;">
+{% for asset in section.assets -%}
+  {%- if asset is matching("[.](jpg|png)$") -%}
+    {% set image = resize_image(path=asset, width=640, height=640, op="fit") %}
+    <a href="{{ get_url(path=asset) }}" target="_blank">
+      <img src="{{ image.url }}" />
+    </a>
+  {%- endif %}
+{%- endfor %}
+</photo-carousel>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Anders Conbere Photography</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    <script type="module" src="/js/carousel.js" /></script>
+</head>
+
+<body>
+    <template id="photo-carousel-template">
+        <style>
+        </style>
+        <button id="previous">previous</button>
+        <div id="container">
+        </div>
+        <button id="next">next</button>
+    </template>
+
+    <header>
+        <div class="title">
+            <a href="/">Photography</a>
+        </div>
+    </header>
+
+    <section class="section">
+        {{ section.content | safe }}
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
