@@ -9,21 +9,43 @@
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
     <script type="module" src="/js/carousel.js" /></script>
+    <style>
+        .section {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        #main-carousel {
+        }
+    </style>
 </head>
 
 <body>
     <template id="photo-carousel-template">
         <style>
             #stage {
+                width: 700px;
+                height: 500px;
+                position: relative;
                 display: flex;
-                flex-direction: row;
-                align-items: stretch;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
             }
 
             #previous {
+                position: absolute;
+                height: 100%;
+                left: 0em;
             }
 
             #next {
+                position: absolute;
+                height: 100%;
+                right: 0em;
+            }
+
+            #container {
             }
 
             #expanded-view img {
@@ -31,9 +53,9 @@
             }
         </style>
         <div id="stage">
-            <button id="previous">previous</button>
+            <button id="previous">&lt;</button>
             <div id="container"></div>
-            <button id="next">next</button>
+            <button id="next">&gt;</button>
         </div>
         <div id="expanded-view">
             <button id="shrink">x</button>
