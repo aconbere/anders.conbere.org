@@ -10,7 +10,7 @@ const rotatedInc = (val, max) => {
     }
 }
 
-const rotatedDecr = (val, max) => {
+const rotatedDec = (val, max) => {
     const test = val - 1
     if (test < 0) {
         return max-1;
@@ -51,7 +51,7 @@ export const carouselMachine = createMachine({
                 },
                 previous: {
                     actions: assign({
-                        index: ({context}) => rotatedDecr(context.index, context.images.length),
+                        index: ({context}) => rotatedDec(context.index, context.images.length),
                     }),
                 },
                 expand: {

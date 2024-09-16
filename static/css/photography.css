@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'Lato-Thin';
+  src: url("/fonts/Lato-Thin.ttf")
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url("/fonts/Lato-Light.ttf")
+}
+
+@font-face {
+  font-family: 'Lato-Black';
+  src: url("/fonts/Lato-Black.ttf")
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #555;
+}
+
+body {
+    background-color: #222;
+}
+
+body p {
+    font-family: "Lato-Light";
+    color: #999;
+}
+
+#bio {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.5rem, 1.5vw, 2vw);
+    margin-bottom: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#main-carousel img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  display: block;
+  max-width: 100%;
+}
+
+header {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+header .title a {
+    font-family: "Lato-Light";
+    color: #999;
+    font-weight: bold;
+    font-size: clamp(2.5rem, 3vw, 5vw);
+    max-width: 640px;
+}
+
+@media (max-width: 600px) {
+    header {
+        width: 85%;
+        min-width: 200px;
+    }
+
+    footer {
+        width: 85%;
+        min-width: 200px;
+    }
+}
