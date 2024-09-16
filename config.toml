@@ -18,4 +18,4 @@ taxonomies = [
 highlight_code = true
 
 [extra]
-favoicon = ""
+favicon = "/img/camera.png"
