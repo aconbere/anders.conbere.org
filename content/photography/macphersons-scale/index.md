@@ -1,5 +1,5 @@
 +++
-title =  "Machphersons Scale"
+title =  "MacPherson's Scale"
 date =  "2022-12-18"
 
 [extra]
