@@ -1,9 +1,10 @@
 +++
 title =  "Steam Plant: Dark Hallway"
-date =  "2022-12-18"
+date =  "2024-05-24"
 
 [extra]
 camera = "Mamiya Press"
 film =  "Ilford HP5+"
 developer =  "Rodinal"
+lens = "Mamiya-Sekor 90mm f3.5"
 +++

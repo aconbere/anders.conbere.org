@@ -1,9 +1,10 @@
 +++
 title =  "Joys of the Ferry"
-date =  "2022-12-18"
+date =  "2023-09-13"
 
 [extra]
 camera =  "Minolta Autocord"
 film =  "Ilford HP5+"
 developer =  "D76"
+lens = "Minolta Rokkor 75mm f3.5"
 +++

@@ -1,9 +1,10 @@
 +++
 title =  "Rebecca's Kitchen"
-date =  "2022-12-18"
+date =  "2023-09-13"
 
 [extra]
 camera = "Olympus 35SP"
 film =  "Ilford HP5+"
 developer =  "D76"
+lens = "Olympus G.Zuiko 40mm f1.7"
 +++

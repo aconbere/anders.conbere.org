@@ -1,9 +1,10 @@
 +++
 title =  "The Swamp"
-date =  "2022-12-18"
+date =  "2023-10-16"
 
 [extra]
 camera = "Mamiya Universal"
 film =  "Kodak T-Max 100"
 developer =  "Xtol"
+lens = "Mamiya-Sekor C 75mm f5.6"
 +++

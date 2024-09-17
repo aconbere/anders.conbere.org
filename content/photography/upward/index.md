@@ -1,9 +1,10 @@
 +++
 title =  "Upward"
-date =  "2022-12-18"
+date =  "2023-07-01"
 
 [extra]
-camera =  "Olympus OM-1"
+camera =  "Olympus OM-2"
 film =  "Ilford HP5+"
 developer =  "D76"
+lens = "Olympus G.Zuiko 50mm f1.8"
 +++
