@@ -7,20 +7,36 @@
 
     <title>Anders Conbere Photography</title>
     <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/photography.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path=config.extra.favicon, trailing_slash=false) }}">
 </head>
 
 <body>
     <header>
         <div class="title">
-            <a href="/">Photography Page</a>
+            <a href="/photography">Anders Conbere</a>
         </div>
     </header>
 
     <section class="section">
-        <div class="container">
-            {{ page.content | safe }}
-        </div>
+        <p id="bio">
+        {{ page.title }}
+        </p>
+
+        <photo-gallery> 
+            <photograph>
+                {% for asset in page.assets -%}
+                    {%- if asset is matching("[.](jpg|png)$") -%}
+                        {% set image = resize_image(path=asset, width=1280, height=800, op="fit_width") %}
+                        <img src="{{ image.url }}" />
+                    {%- endif %}
+                {%- endfor %}
+                <subtitle>
+                {{ page.title }} - {{ page.extra.camera }} : {{ page.extra.film }} : {{ page.extra.developer }} 
+                </subtitle>
+            </photograph>
+        </photo-gallery>
+
     </section>
 
     <footer>

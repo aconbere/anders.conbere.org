@@ -14,12 +14,12 @@
 }
 
 a {
-    color: #333;
+    color: #EFCE1F;
     text-decoration: none;
 }
 
 a:visited {
-    color: #555;
+    color: #D8BD2E;
 }
 
 body {
@@ -29,24 +29,6 @@ body {
 body p {
     font-family: "Lato-Light";
     color: #999;
-}
-
-#bio {
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: clamp(1.5rem, 1.5vw, 2vw);
-    margin-bottom: 50px;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-#main-carousel img {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
-  display: block;
-  max-width: 100%;
 }
 
 header {
@@ -64,6 +46,45 @@ header .title a {
     font-weight: bold;
     font-size: clamp(2.5rem, 3vw, 5vw);
     max-width: 640px;
+}
+
+
+#bio {
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.5rem, 1.5vw, 2vw);
+    margin-bottom: 50px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+photo-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+photograph {
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 30px;
+}
+
+photograph img {
+  display: block;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+photograph subtitle {
+    display: block;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Lato-Light";
+    color: #999;
 }
 
 @media (max-width: 600px) {

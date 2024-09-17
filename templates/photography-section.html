@@ -16,12 +16,26 @@
 <body>
     <header>
         <div class="title">
-            <a href="/">Anders Conbere</a>
+            <a href="/photography">Anders Conbere</a>
         </div>
     </header>
 
     <section class="section">
         {{ section.content | safe }}
+
+        <photo-gallery>
+        {% for page in section.pages -%}
+            {% set image = resize_image(path=page.assets[0], width=640, height=400, op="fit_width") %}
+            <photograph>
+                <a href="{{ page.permalink }}">
+                  <img src="{{ image.url }}" />
+                </a>
+                <subtitle>
+                {{ page.title }} - {{ page.extra.camera }} : {{ page.extra.film }} : {{ page.extra.developer }} 
+                </subtitle>
+            </photograph>
+        {%- endfor %}
+        </photo-gallery>
     </section>
 
     <footer>
