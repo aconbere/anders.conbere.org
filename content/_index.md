@@ -1,7 +1,6 @@
 +++
 +++
 
-Hi, I'm Anders Conbere.
 
 {{ resize_image(path="./anders.jpg", width=400, height=640, op="fit") }}
 
