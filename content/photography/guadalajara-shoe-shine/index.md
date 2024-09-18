@@ -1,6 +1,7 @@
 +++
 title =  "Guadalajara Shoeshine"
 date =  "2024-02-28"
+render = false
 
 [extra]
 camera =  "Minolta Autocord"

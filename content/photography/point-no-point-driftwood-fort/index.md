@@ -1,6 +1,7 @@
 +++
 title =  "Point no Point: Driftwood Fort"
 date =  "2024-01-20"
+render = false
 
 [extra]
 camera = "Graflex Crown Graphic"

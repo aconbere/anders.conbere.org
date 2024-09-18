@@ -1,6 +1,7 @@
 +++
 title =  "Tulip"
 date =  "2024-04-28"
+render = false
 
 [extra]
 camera = "Chamonix 45F2"

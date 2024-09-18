@@ -1,6 +1,7 @@
 +++
 title =  "Abandoned Brewery Window"
 date =  "2024-05-22"
+render = false
 
 [extra]
 camera =  "Mamiya RB67 ProSD"

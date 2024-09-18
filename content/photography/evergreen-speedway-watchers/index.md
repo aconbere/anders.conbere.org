@@ -1,6 +1,7 @@
 +++
 title =  "Evergreen Speedway Watchers"
 date =  "2023-07-18"
+render = false
 
 [extra]
 camera =  "Olympus OM-1"

@@ -1,6 +1,7 @@
 +++
 title =  "Steam Plant: Dark Hallway"
 date =  "2024-05-24"
+render = false
 
 [extra]
 camera = "Mamiya Press"
