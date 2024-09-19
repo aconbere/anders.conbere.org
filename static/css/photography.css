@@ -13,6 +13,10 @@
   src: url("/fonts/Lato-Black.ttf")
 }
 
+.yellow {
+    color: #EFCE1F;
+}
+
 a {
     color: #EFCE1F;
     text-decoration: none;
@@ -32,10 +36,10 @@ body p {
 }
 
 header {
-    max-width: 640px;
+    max-width: 1280px;
+
     margin-left: auto;
     margin-right: auto;
-    
     margin-top: 1rem;
     margin-bottom: 2rem;
 }
@@ -49,14 +53,16 @@ header .title a {
 }
 
 
-#bio {
-    max-width: 640px;
+.subheading {
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    font-size: clamp(1.5rem, 1.5vw, 2vw);
     margin-bottom: 50px;
+
     padding-left: 1rem;
     padding-right: 1rem;
+
+    font-size: clamp(1.5rem, 1.5vw, 2vw);
 }
 
 photo-gallery {
@@ -81,7 +87,6 @@ photograph img {
 
 photograph subtitle {
     display: block;
-    padding-left: 1rem;
     padding-right: 1rem;
     font-family: "Lato-Light";
     color: #999;
