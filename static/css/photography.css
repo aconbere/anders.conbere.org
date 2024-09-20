@@ -35,13 +35,19 @@ body p {
     color: #999;
 }
 
-header {
+header .title {
     max-width: 1280px;
+    min-width: 640px;
 
     margin-left: auto;
     margin-right: auto;
     margin-top: 1rem;
     margin-bottom: 2rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    text-align: left;
 }
 
 header .title a {
@@ -49,7 +55,6 @@ header .title a {
     color: #999;
     font-weight: bold;
     font-size: clamp(2.5rem, 3vw, 5vw);
-    max-width: 640px;
 }
 
 
