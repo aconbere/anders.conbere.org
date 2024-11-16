@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+{% include "head.html" %}
+</head>
+<body>
+    <div class="wrapper">
+      <header>
+{% include "header.html" %}
+      </header>
+      <content>
+{% block content %}
+{% endblock content %}
+      </content>
+      <footer>
+{% include "footer.html" %}
+      </footer>
+    </div>
+</body>
+</html>

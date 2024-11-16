@@ -1,9 +1,10 @@
 # The URL the site will be built for
 base_url = "https://anders.conbere.org"
-theme = "anemone"
+theme = "aabbaa"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
+
 generate_feeds = true
 build_search_index = false
 
