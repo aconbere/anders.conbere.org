@@ -3,6 +3,8 @@ title = "New York City - November 2024"
 date = "2024-11-15"
 [taxonomies]
 tags=["Photography"]
+[extra]
+image="processed_images/brooklyn-bridge-at-night.c0929e63d288de9c.jpg"
 +++
 
 {{ resize_image(path="./blog/new-york-city-november-2024/brooklyn-bridge-at-night.jpg", width=900, height=600, op="fit") }}
