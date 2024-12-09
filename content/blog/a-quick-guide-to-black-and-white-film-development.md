@@ -8,6 +8,7 @@ Black and white film development can be daunting to beginners, and while it does
 ## Supplies
 
 - [Dark bag](https://www.bhphotovideo.com/c/product/1644766-REG)
+    - needed to move your film from the canister, roll, or film holder into the development tank.
 - [Paterson tank](https://www.bhphotovideo.com/c/product/886586-REG)
     - The 2x135 roll tank will dev one roll of 120 and is affordable
 - Sous Vide
@@ -17,9 +18,12 @@ Black and white film development can be daunting to beginners, and while it does
     - many of my bottles I’ve scavenged growlers from friends or free, having a couple more won’t hurt.
 - [HC-110](https://www.bhphotovideo.com/c/product/1493206-REG)
     - there are lots and lots of developers out there. HC-110 is a great choice for beginners. It’s a liquid concentrate easy to mix up for each development, lasts for ages, and produces good consistent results. Rodinal is another classic choice, is cheaper, but produces a pronounced grain which is less universally liked.
-- [Ilford Rapid Fix](https://www.bhphotovideo.com/c/product/253198-REG)
-- [Kodak Photo-Flo](https://www.bhphotovideo.com/c/product/28195-REG)
 - [Ilford Ilfostop Stop Bath](https://www.bhphotovideo.com/c/product/169348-REG)
+    - Stop raises the PH of emulsion stopping film development quickly while also helping preserve fix lifetime.
+- [Ilford Rapid Fix](https://www.bhphotovideo.com/c/product/253198-REG)
+    - Fix is a chemical that removes silver salts while leaving the metallic silver in the emulsion.
+- [Kodak Photo-Flo](https://www.bhphotovideo.com/c/product/28195-REG)
+    - Photo-flo is a surfactant that helps water run off the film prevents water marks from drying.
 - [Graduated cylinders](https://www.bhphotovideo.com/c/product/448443-REG/Photographers_Formulary_09_0045_Glass_Graduate_25ml.html)
     - A small assortment is nice. 10ml-100ml not a big deal. I think I got a a couple sets of glass ones one amazon.
 - Some clips to hang film with
@@ -30,11 +34,11 @@ Black and white film development can be daunting to beginners, and while it does
 
 - Mix stop and fix.
     - The appropriate dilution will be listed on the bottle. These chemicals will be reused across a number of development cycles. They should be labled and stored as airtight as possible, in a cool, dark location. I use 1L amber bottles listed above.
-    - Both stop and fix will eventually expire. The ilford stop bath listed above will start yellow and turn purpleish when it's expired. When the stop is expired you can simply pour it down the drain and make more. The fix is a little trickier. It will last quite a while, I usually just watch for an increase in film base fog. When I see my film come out a little grey, I mix some new fix and just refix my film. Fix should NOT be poured down the drain, I take mine to a locally community film lab that processes the fix to remove the silver.
+    - Both stop and fix will eventually expire. The Ilford stop bath listed above will start yellow and turn purpleish when it's expired. When the stop is expired you can simply pour it down the drain and make more. The fix is a little trickier. It will last quite a while, I usually just watch for an increase in film base fog. When I see my film come out a little grey, I mix some new fix and just refix my film. Fix should NOT be poured down the drain, I take mine to a locally community film lab that processes the fix to remove the silver.
 - Mix your developer
     - Specific directions will depend on what developer you're using. If you're using HC-110 like suggested above then you need to pick a dilution. I like 1+63. For a two roll paterson tank you need 500ml of developer meaning you should mix 8ml of developer with 492ml of distilled water.
 - Set a timer
-    - [Massive dev chart](https://www.digitaltruth.com/devchart.php) is the standard starting point. They make an app with a timer that is cheap and I like. For HP5+ rated at 400 and HC-110 at 1+63 the suggeseted dev time is 11 minutes.
+    - [Massive dev chart](https://www.digitaltruth.com/devchart.php) is the standard starting point. They make an app with a timer that is cheap and I like. For HP5+ rated at 400 and HC-110 at 1+63 the suggested dev time is 11 minutes.
 - Get all chemicals and rinse to temp
     - I like to use a sous vide. It's not the fastest method but it is absolutely mindless. I just put all the bottles in the tub with water covering them and set the sous vide to 68 degrees.
 - Transfer the film onto the paterson spools
@@ -64,7 +68,8 @@ Prep all your bottles and timer and make sure you’re ready. Double check time 
 - Wash (5min)
     - Open tank, remove funnel, let sink run gentely into the tank for the full time
 - Photo-flo (1min)
-    - Add photo-flo to tank
+    - Fill tank to top of spool with distilled water
+    - Add 1ml of photo-flo
     - Agitate: Gentle inversions for 1 minute
 - Hang to dry
 
