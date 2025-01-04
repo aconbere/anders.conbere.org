@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Anders' Wiki</title>
+    <link rel="stylesheet" href="{{ get_url(path='css/style.css', trailing_slash=false) | safe }}"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path=config.extra.favicon, trailing_slash=false) }}">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="/wiki">Wiki</a>/{{ section.title }}
+        </div>
+    </header>
+
+    <h1>{{ section.title }}</h1>
+
+    <section class="section">
+        {{ section.content | safe }}
+
+        {% if section.subsections %}
+        <h2>Sections</h2>
+        <ul class="section-list">
+        {% for subsection_path in section.subsections %}
+            {% set subsection = get_section(path=subsection_path) %}
+
+          <li>
+            <a href="{{ subsection.permalink | safe }}">{{ subsection.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+        {% if section.pages %}
+        <h2>Pages</h2>
+        <ul class="page-list">
+        {% for page in section.pages %}
+          <li>
+            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
