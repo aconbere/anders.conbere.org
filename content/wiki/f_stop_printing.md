@@ -19,5 +19,3 @@ For me personally I do the following when I walk up to the enlarger:
 3. I look at my scene and see if there is a direction that is better to make my strips in. Sometimes you know you have shadow or highlight information that you need and setting that up early is best.
 4. I make 4 exposures across my page: 20s, 10s, 5s, and 5s. The net result is a page with 40s, 20s, 10s, and 5s.
 5. At this point I usually know my base exposure, but if I don't it's easy to adjust and repeat.
-
-
