@@ -152,7 +152,13 @@ hr {
   border: 1px dashed
 }
 
-img {
+footer img {
+    vertical-align: middle;
+    width: .9em;
+    height: .9em;
+}
+
+content img {
   max-width: 100%;
   height: auto;
   margin: .2rem;
@@ -254,7 +260,7 @@ textarea {
   background-color: transparent;
 }
 
-.icons__background:hover {
+.green-transparent:hover {
   background-color: transparent;
   color: var(--metaColor);
 }

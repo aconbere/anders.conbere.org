@@ -4,7 +4,8 @@
 
   {% if config.generate_feeds %}
   <div>
-    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="Subscribe via RSS for updates.">subscribe! <svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#rss', trailing_slash=false) | safe }}"></use></svg></a>
+    <a class="green-transparent" target="_blank" rel="noopener noreferrer" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="Subscribe via RSS for updates.">subscribe! <svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#rss', trailing_slash=false) | safe }}"></use></svg></a>
+    <a class="green-transparent" href="https://webring.xxiivv.com/#your-id-here" target="_blank" rel="noopener">webring: <img class="small" src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring"/></a>
   </div>
   {% endif %}
 </div>

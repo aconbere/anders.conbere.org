@@ -1,13 +1,13 @@
-name = "anemone"
-description = "A minimalist Zola theme that prioritizes clean CSS and avoids heavy JavaScript. Enjoy a seamless user experience with lightning-fast load times. Let your content take center stage in a clutter-free, elegant design that enhances readability. Responsive and efficient, anemone brings focus to your ideas."
-license = "MIT"
-homepage = "https://github.com/Speyll/anemone"
-min_version = "0.4.0"
-demo = "https://anemone.pages.dev"
+name = "aabbaa"
+description = ""
+license = ""
+homepage = ""
+min_version = ""
+demo = ""
 
 [extra]
 
 
 [author]
-name = "Speyll"
-homepage = "https://speyllsite.pages.dev/"
+name = "Anders Conbere"
+homepage = "https://anders.conbere.org/"
