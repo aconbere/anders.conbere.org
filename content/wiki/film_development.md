@@ -2,9 +2,11 @@
 title = "Film Development"
 +++
 
+## Black and White
+
 Black and white film development can be daunting to beginners, and while it does require a bunch of tools and new items, the actual process is not any more difficult than baking bread. Further black and white film is enormously flexible and while you can really dial in the process to get precisely the results you want, even with a lot of variation you're likely to get useable results. As an example I once accidently cut my dilution of HC-110 in half and, while my film was very thin, I was still able to scan usable images.
 
-## Supplies
+### Supplies
 
 - [Dark bag](https://www.bhphotovideo.com/c/product/1644766-REG)
     - needed to move your film from the canister, roll, or film holder into the development tank.
@@ -27,9 +29,9 @@ Black and white film development can be daunting to beginners, and while it does
     - A small assortment is nice. 10ml-100ml not a big deal. I think I got a a couple sets of glass ones one amazon.
 - Some clips to hang film with
 
-## Process
+### Process
 
-### Before hand
+#### Before hand
 
 - Mix stop and fix.
     - The appropriate dilution will be listed on the bottle. These chemicals will be reused across a number of development cycles. They should be labled and stored as airtight as possible, in a cool, dark location. I use 1L amber bottles listed above.
@@ -72,6 +74,10 @@ Prep all your bottles and timer and make sure you’re ready. Double check time 
     - Agitate: Gentle inversions for 1 minute
 - Hang to dry
 
-## Final thoughts
+### Notes on Black and White Development
 
 This is only a starting point, as you'll discover there are endless variations on this process and this is just one that works for me. Some places to explore if you want to do some adventuring would be to play with different film and developer combinations (Other good developers to try would be Rodinal, Xtol, and D76). Another avenue would be to research the zone development process for contrast expansion and contraction as well as film testing. But mostly this is presented as a way to get your feet wet and start to get some results.
+
+## C-41 Film Development
+
+See DIY Recipe at [DIY C-41 Developer](@/wiki/diy_c41_developer.md)
