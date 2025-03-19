@@ -7,4 +7,4 @@ sort_by="date"
 
 <p>Anders is a black and white film photographer and print maker living in Seattle Washtingon.</p>
 
-<p>See information on <a href="./ordering-prints">ordering prints</a></p>
+<p>See information on <a href="./photography/ordering-prints">ordering prints</a></p>

@@ -76,6 +76,7 @@ body {
   overflow-wrap: break-word;
   background: var(--bgColor);
   color: var(--fgColor);
+  padding: 15px;
 }
 
 h1 {
