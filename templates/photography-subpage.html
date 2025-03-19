@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <title>Anders Conbere Photography</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/photography.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ get_url(path=config.extra.favicon, trailing_slash=false) }}">
+    <style>
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <a href="/photography">Anders Conbere</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <description>
+        {{ page.content | safe }}
+        </description>
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
+

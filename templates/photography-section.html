@@ -21,19 +21,25 @@
     </header>
 
     <section class="section">
+        <description>
         {{ section.content | safe }}
+        </description>
 
         <photo-gallery>
         {% for page in section.pages -%}
-            {% set image = resize_image(path=page.assets[0], width=640, height=400, op="fit_width") %}
-            <photograph>
-                <a href="{{ page.permalink }}">
-                  <img src="{{ image.url }}" />
-                </a>
-                <subtitle>
-                {{ page.title }} - {{ page.extra.camera }} : {{ page.extra.film }} : {{ page.extra.developer }} 
-                </subtitle>
-            </photograph>
+            {% if not page.extra.subpage %}
+                {% if page.assets %}
+                    {% set image = resize_image(path=page.assets[0], width=640, height=400, op="fit_width") %}
+                    <photograph>
+                        <a href="{{ page.permalink }}">
+                          <img src="{{ image.url }}" />
+                        </a>
+                        <subtitle>
+                        {{ page.title }} - {{ page.extra.camera }} : {{ page.extra.film }} : {{ page.extra.developer }} 
+                        </subtitle>
+                    </photograph>
+                {% endif %}
+            {% endif %}
         {%- endfor %}
         </photo-gallery>
     </section>

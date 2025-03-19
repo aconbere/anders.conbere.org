@@ -17,6 +17,10 @@
     color: #EFCE1F;
 }
 
+.centered-text {
+    text-align: center;
+}
+
 a {
     color: #EFCE1F;
     text-decoration: none;
@@ -26,16 +30,42 @@ a:visited {
     color: #D8BD2E;
 }
 
+description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+description p {
+    width: 640px;
+    text-align: left;
+}
+
 body {
     background-color: #222;
 }
 
 body p {
     font-family: "Lato-Light";
-    color: #999;
+    color: #FFF;
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+body p .subheading {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    font-size: clamp(1.5rem, 1.5vw, 2vw);
 }
 
 header .title {
+    text-align: center;
     max-width: 1280px;
     min-width: 640px;
 
@@ -47,28 +77,65 @@ header .title {
     padding-left: 1rem;
     padding-right: 1rem;
 
-    text-align: left;
 }
 
 header .title a {
     font-family: "Lato-Light";
-    color: #999;
+    color: #FFF;
     font-weight: bold;
     font-size: clamp(2.5rem, 3vw, 5vw);
 }
 
-
-.subheading {
-    max-width: 1280px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-
-    padding-left: 1rem;
-    padding-right: 1rem;
-
-    font-size: clamp(1.5rem, 1.5vw, 2vw);
+.wrapper-content-start {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+thead,
+tfoot {
+    background-color: rgb(228 240 245);
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tbody > tr {
+    background-color: rgb(237 238 242);
+}
+
+tfoot th {
+    text-align: right;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 1.5em;
+    font-family: "Lato-Black";
+    padding: 20px;
+}
+
 
 photo-gallery {
     display: flex;
@@ -81,7 +148,7 @@ photograph {
     margin-bottom: 20px;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 photograph img {
@@ -94,7 +161,7 @@ photograph subtitle {
     display: block;
     padding-right: 1rem;
     font-family: "Lato-Light";
-    color: #999;
+    color: #FFF;
 }
 
 @media (max-width: 600px) {
