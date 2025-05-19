@@ -10,6 +10,11 @@ From an article on [alternativephotography.com](https://www.alternativephotograp
 
 ### Sensitizer Preparation
 
+Ingredients:
+- 50g [Ferric Ammonium Citrate](https://artcraftchemicals.com/products/ferric-ammon-citrate-green-part-1151)
+- 30g [Copper (II) Sulfate](https://artcraftchemicals.com/products/copper-sulfate-part-1122)
+- 20g [Sodium Thiosulphate](https://artcraftchemicals.com/products/sodium-thiosulfate-penta-part-1435)
+
 Mix three solutions of Ferric Ammonium Citrate, Copper (II) Sulfate, and Sodium Thiosulphate.
 
 #### Solution A
@@ -38,14 +43,17 @@ When ready to coat mix 1:3:2 (A:B:C)
 ### Complex Toner Preparation
 
 #### Solution A 
-20 g copper sulfate pentahydrate, 50 g sodium citrate in 500 mL using distilled water.
-– Dissolve 20 g copper sulfate pentahydrate and 50 g sodium citrate in about 400 mL distilled water; bring volume to 500 mL using distilled water.
+- 20g [Copper Sulfate Pentahydrate](https://artcraftchemicals.com/products/copper-sulfate-part-1122)
+- 50g [sodium citrate](https://artcraftchemicals.com/products/sodium-citrate-part-1370)
+- 400 mL using distilled water.
+- bring to 500ml
 
 #### Solution B 
-20 g potassium ferricyanide in 100 mL using distilled water.
-– Dissolve 20 g potassium ferricyanide in about 75 mL of distilled water; bring volume to 100 mL using distilled water.
+- 20 g [potassium ferricyanide](https://artcraftchemicals.com/products/potassium-ferricyanide-part-1275)
+- 100 mL distilled water.
+- 5ml HCL (muratic acid)
 
-Working solution: Slowly add solution B to solution A with constant stirring. Then add 5 mL concentrated HCl. (muriatic acid).
+Working solution: Slowly add solution B to solution A with constant stirring. Then add 5 mL concentrated HCl.
 
 ## Peter Friedrichsen Recipe
 
