@@ -1,5 +1,5 @@
 +++
-title="DIY Black and White Film Developer
+title="DIY Black and White Film Developer"
 +++
 
 ## Instant Mytol
