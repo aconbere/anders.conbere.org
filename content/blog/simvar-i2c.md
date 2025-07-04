@@ -1,7 +1,7 @@
----
-title: Using i2c With Simavr
-date: 2020-12-23
----
++++
+title = "Using i2c With Simavr"
+date = "2020-12-23"
++++
 
 This will run your avr program and start gdb listening on 1234
     ~/simavr/simavr/run_avr -m attiny85 -f 8000000 -g ~/Projects/attiny85-example/build/main.elf
