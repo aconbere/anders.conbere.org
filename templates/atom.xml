@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ lang }}">
+    <title>{{ config.title }}
+    {%- if term %} - {{ term.name }}
+    {%- elif section.title %} - {{ section.title }}
+    {%- endif -%}
+    </title>
+    {%- if config.description %}
+    <subtitle>{{ config.description }}</subtitle>
+    {%- endif %}
+    <link rel="self" type="application/atom+xml" href="{{ feed_url | safe }}"/>
+    <link rel="alternate" type="text/html" href="
+      {%- if section -%}
+        {{ section.permalink | escape_xml | safe }}
+      {%- else -%}
+        {{ config.base_url | escape_xml | safe }}
+      {%- endif -%}
+    "/>
+    <updated>{{ last_updated | date(format="%+") }}</updated>
+    <id>{{ feed_url | safe }}</id>
+    {%- for page in pages %}
+    <entry xml:lang="{{ page.lang }}">
+        <title>{{ page.title }}</title>
+        <published>{{ page.date | date(format="%+") }}</published>
+        <updated>{{ page.updated | default(value=page.date) | date(format="%+") }}</updated>
+        <author>
+          <name>
+            {%- if config.author -%}
+              {{ config.author }}
+            {%- else -%}
+              Unknown
+            {%- endif -%}
+          </name>
+        </author>
+        <link rel="alternate" type="text/html" href="{{ page.permalink | safe }}"/>
+        <id>{{ page.permalink | safe }}</id>
+        {% if page.summary %}
+        <summary type="html">{{ page.summary }}</summary>
+        {% else %}
+        <content type="html" xml:base="{{ page.permalink | escape_xml | safe }}">
+            {%- for ancestor in page.ancestors %}
+                {%- set section = get_section(path=ancestor) %}
+                {%- if page.assets and section.title == "Photography" %}
+                    {%- set asset = page.assets | first %}
+                    {%- set image = resize_image(path=asset, width=1280, height=800, op="fit_width") %}
+                    <img src="{{ image.url }}" />
+
+                    {#
+                        Note: the print ordering page is in the photography section, has assets, but is not a picture page
+                        I might want to think about how to better distinguish these pages.
+                    #}
+                    {%- if page.extra.camera %}
+                    <subtitle>
+                    {{ page.title }} - {{ page.extra.camera }} : {{ page.extra.film }} : {{ page.extra.developer }} 
+                    </subtitle>
+                    {%- endif %}
+                {% endif %}
+            {%- endfor %}
+            {{ page.content }}
+        </content>
+        {% endif %}
+    </entry>
+    {%- endfor %}
+</feed>
+

@@ -25,7 +25,7 @@
 
         <photo-gallery> 
             <photograph>
-                {% for asset in page.assets -%}
+                {%- for asset in page.assets -%}
                     {%- if asset is matching("[.](jpg|png)$") -%}
                         {% set image = resize_image(path=asset, width=1280, height=800, op="fit_width") %}
                         <img src="{{ image.url }}" />

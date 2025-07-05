@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://anders.conbere.org"
 theme = "aabbaa"
+title = "Anders Conbere"
+author = "Anders Conbere"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
