@@ -1,7 +1,6 @@
 +++
 title = "Photography"
 template = "photography-subpage.html"
-date = "2025-03-20"
 
 [extra]
 subpage = true
