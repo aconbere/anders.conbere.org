@@ -1,0 +1,9 @@
+{# image_grid(paths=["a/b/c.jpg"], columns=2, image_width=400, image_height=600) #}
+<div class="image-grid">
+{% for path in paths -%}
+    {% set image = resize_image(path=path, width=imgage_width, height=imgage_height) %}
+    <a href="{{ get_url(path=path) }}" target="_blank">
+      <img src="{{ image.url }}" />
+    </a>
+{%- endfor %}
+</div>

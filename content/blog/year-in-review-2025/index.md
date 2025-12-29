@@ -27,6 +27,7 @@ So much of my adult life, every year could be neatly summarized by "did my job, 
 {{ resize_image(path="./blog/year-in-review-2025/polaroid900_2.jpg", width=600, height=400, op="fit") }}
 - Modded Kodak No 3a Autographic to shoot 120 film
 {{ resize_image(path="./blog/year-in-review-2025/kodak_no_3a_1.jpg", width=600, height=400, op="fit") }}
+{{ resize_image(path="./blog/year-in-review-2025/kodak_no_3a_2.jpg", width=600, height=400, op="fit") }}
 - Color inkjet prints
 {{ resize_image(path="./blog/year-in-review-2025/color_inkjet_print.jpg", width=600, height=400, op="fit") }}
 - Cyanotypes, Cuprotypes and Argyrotypes
@@ -44,15 +45,23 @@ So much of my adult life, every year could be neatly summarized by "did my job, 
 
 ## Places I Went
 - Iceland
+
 {{ resize_image(path="./blog/year-in-review-2025/iceland_1.jpg", width=600, height=400, op="fit") }}
 {{ resize_image(path="./blog/year-in-review-2025/iceland_2.jpg", width=600, height=400, op="fit") }}
 {{ resize_image(path="./blog/year-in-review-2025/iceland_3.jpg", width=600, height=400, op="fit") }}
 {{ resize_image(path="./blog/year-in-review-2025/iceland_4.jpg", width=600, height=400, op="fit") }}
+
 - Lind WA
+
 {{ resize_image(path="./blog/year-in-review-2025/lind_wa_1.jpg", width=600, height=400, op="fit") }}
 {{ resize_image(path="./blog/year-in-review-2025/lind_wa_2.jpg", width=600, height=400, op="fit") }}
+
 - Blakely Island
+
 - Austin Texas
+
+{{ resize_image(path="./blog/year-in-review-2025/austin_1.jpg", width=600, height=400, op="fit") }}
+{{ resize_image(path="./blog/year-in-review-2025/austin_2.jpg", width=600, height=400, op="fit") }}
 
 ## Things I Read
 - Black Leopard Red Wolf - Marlon James
